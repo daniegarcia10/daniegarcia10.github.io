@@ -1,4 +1,10 @@
 (function () {
+  function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+  function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+  function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
   function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
   function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
@@ -3385,7 +3391,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content>\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card>\n    <ion-card-content>\n      <div id=\"map_canvas\"></div>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-header>\n      <ion-card-title color=\"primary\">Contacto</ion-card-title>\n    </ion-card-header>\n    <ion-card-content>\n      <ion-item>\n        <ion-label position=\"floating\">Nombre</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">Correo electrónico</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">Mensaje</ion-label>\n        <ion-textarea></ion-textarea>\n      </ion-item>\n      <div class=\"d-flex w-100 p-t-20 justify-content-center\">\n        <ion-button>Enviar<ion-icon name=\"send-sharp\" class=\"p-l-5\"></ion-icon></ion-button>\n      </div>\n    </ion-card-content>\n  </ion-card>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n <app-footer></app-footer>\n</ion-content>\n\n";
+      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content>\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card>\n    <ion-card-content>\n      <ion-grid>\n        <ion-row>\n          <ion-col size=\"8\">\n            <div id=\"map_canvas\"></div>\n          </ion-col>\n          <ion-col>\n            <ion-list>\n              <ion-list-header>\n                <h1 class=\"font-28\">Puntos de venta</h1>\n              </ion-list-header>\n              <ion-item *ngFor=\"let location of pointToSells\">\n                <ion-avatar slot=\"start\">\n                  <ion-icon class=\"font-32\" color=\"primary\" name=\"location-outline\"></ion-icon>\n                </ion-avatar>\n                <ion-label>\n                  <h2>{{ location.name }}</h2>\n                  <p> {{ location.street }} {{ location.number }}, {{ location.suburb }}, {{ location.state }} </p>\n                </ion-label>\n              </ion-item>\n            </ion-list>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-header>\n      <ion-card-title color=\"primary\">Contacto</ion-card-title>\n    </ion-card-header>\n    <ion-card-content>\n      <ion-item>\n        <ion-label position=\"floating\">Nombre</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">Correo electrónico</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">Mensaje</ion-label>\n        <ion-textarea></ion-textarea>\n      </ion-item>\n      <div class=\"d-flex w-100 p-t-20 justify-content-center\">\n        <ion-button>Enviar<ion-icon name=\"send-sharp\" class=\"p-l-5\"></ion-icon></ion-button>\n      </div>\n    </ion-card-content>\n  </ion-card>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n <app-footer></app-footer>\n</ion-content>\n\n";
       /***/
     },
 
@@ -3550,7 +3556,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "#map_canvas {\n  width: 80%;\n  height: 500px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY29udGFjdC9jb250YWN0LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFVBQUE7RUFDQSxhQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9jb250YWN0L2NvbnRhY3QucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21hcF9jYW52YXMgeyBcbiAgICB3aWR0aDogODAlO1xuICAgIGhlaWdodDogNTAwcHg7XG59XG4gICJdfQ== */";
+      __webpack_exports__["default"] = "#map_canvas {\n  width: 100%;\n  height: 500px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY29udGFjdC9jb250YWN0LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFDQSxhQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9jb250YWN0L2NvbnRhY3QucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21hcF9jYW52YXMgeyBcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDUwMHB4O1xufVxuICAiXX0= */";
       /***/
     },
 
@@ -3597,6 +3603,16 @@
           _classCallCheck(this, ContactPage);
 
           this.slideImgs = ['../../../assets/images/slides/quinoa.jpg'];
+          this.pointToSells = [{
+            name: 'Deliroots',
+            street: 'Av. ferrocarril',
+            number: '#33',
+            suburb: 'El cerrito',
+            state: 'Querétaro',
+            zipCode: '',
+            lat: 20.601493,
+            lng: -100.392938
+          }];
         }
 
         _createClass(ContactPage, [{
@@ -3613,27 +3629,39 @@
             var mapOptions = {
               camera: {
                 target: {
-                  lat: 43.0741904,
-                  lng: -89.3809802
+                  lat: 20.601493,
+                  lng: -100.392938
                 },
-                zoom: 18,
+                zoom: 6,
                 tilt: 30
               }
             };
             this.map = _ionic_native_google_maps__WEBPACK_IMPORTED_MODULE_2__["GoogleMaps"].create('map_canvas', mapOptions);
-            console.log(this.map);
-            var marker = this.map.addMarkerSync({
-              title: 'Ionic',
-              icon: 'blue',
-              animation: 'DROP',
-              position: {
-                lat: 43.0741904,
-                lng: -89.3809802
+
+            var _iterator = _createForOfIteratorHelper(this.pointToSells),
+                _step;
+
+            try {
+              for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                var point = _step.value;
+                var marker = this.map.addMarkerSync({
+                  title: point.name,
+                  icon: 'green',
+                  animation: 'DROP',
+                  position: {
+                    lat: point.lat,
+                    lng: point.lng
+                  }
+                });
+                marker.on(_ionic_native_google_maps__WEBPACK_IMPORTED_MODULE_2__["GoogleMapsEvent"].MARKER_CLICK).subscribe(function () {
+                  console.log('clicked');
+                });
               }
-            });
-            marker.on(_ionic_native_google_maps__WEBPACK_IMPORTED_MODULE_2__["GoogleMapsEvent"].MARKER_CLICK).subscribe(function () {
-              alert('clicked');
-            });
+            } catch (err) {
+              _iterator.e(err);
+            } finally {
+              _iterator.f();
+            }
           }
         }]);
 
