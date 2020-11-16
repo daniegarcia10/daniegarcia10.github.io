@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar>\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            width=\"200\" \n            height=\"70\" \n            src=\"../../../assets/images/logo_2.png\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            src=\"../../../assets/images/logo_2.png\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>");
 
 /***/ }),
 
@@ -322,7 +322,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-card>\n  <ion-card-content>\n    <img [src]=\"product.img\" class=\"image\">\n    <div class=\"middle\">\n      <ion-button (click)=\"showModal(product)\">\n        <ion-icon name=\"eye-outline\"></ion-icon>\n      </ion-button>\n    </div>\n    <ion-text color=\"primary\">\n      <h1>{{ product.name | translate }}</h1>\n    </ion-text>\n    <ul class=\"text-color font-20\">\n      <li >Ingredientes: {{ product.ingredients}}</li>\n      <li>Presentación: {{ product.presentation }}</li>\n      <li>Precio público: {{ product.price }}</li>\n    </ul>\n  </ion-card-content>\n</ion-card>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-card>\n  <ion-card-content>\n    <img [src]=\"product.img\" class=\"image circle\">\n    <div class=\"middle\">\n      <ion-button (click)=\"showModal(product)\">\n        <ion-icon name=\"eye-outline\"></ion-icon>\n      </ion-button>\n    </div>\n    <ion-text color=\"primary\">\n      <h1>{{ product.name | translate }}</h1>\n    </ion-text>\n    <ul class=\"text-color font-20\">\n      <li >Ingredientes: {{ product.ingredients}}</li>\n      <li>Presentación: {{ product.presentation }}</li>\n      <li>Precio público: {{ product.price }}</li>\n    </ul>\n  </ion-card-content>\n</ion-card>");
 
 /***/ }),
 
@@ -335,7 +335,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header translucent mode=\"ios\">\n  <ion-toolbar>\n    <ion-buttons slot=\"end\">\n      <ion-button (click)=\"dismissModal()\">\n        <ion-icon name=\"close-outline\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content class=\"card-content\">\n  <ion-grid>\n    <ion-row>\n      <ion-col size=\"6\" class=\"d-flex align-items-center\">\n        <img [src]=\"product.img\" class=\"image\">\n      </ion-col>\n      <ion-col size=\"6\">  \n        <ion-text color=\"primary\">\n          <h1>{{ product.name | translate }}</h1>\n        </ion-text>    \n        <ion-text color=\"secondary\">\n          <h2>{{ product.price | translate }}</h2>\n        </ion-text>  \n        <div class=\"desc-container p-t-20\">\n          <p *ngFor=\"let dsc of product.dsc\">\n            {{ dsc }}\n          </p>\n          <ul>\n            <li>Ingredientes: {{ product.ingredients}}</li>\n            <li>Presentación: {{ product.presentation }}</li>\n          </ul>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header translucent mode=\"ios\">\n  <ion-toolbar>\n    <ion-buttons slot=\"end\">\n      <ion-button (click)=\"dismissModal()\">\n        <ion-icon name=\"close-outline\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content class=\"card-content\">\n  <ion-grid>\n    <ion-row>\n      <ion-col size=\"6\" class=\"d-flex align-items-center\">\n        <img [src]=\"product.img\" class=\"image circle\">\n      </ion-col>\n      <ion-col size=\"6\">  \n        <ion-text color=\"primary\">\n          <h1>{{ product.name | translate }}</h1>\n        </ion-text>    \n        <ion-text color=\"secondary\">\n          <h2>{{ product.price | translate }}</h2>\n        </ion-text>  \n        <div class=\"desc-container p-t-20\">\n          <p *ngFor=\"let dsc of product.dsc\">\n            {{ dsc }}\n          </p>\n          <ul>\n            <li>Ingredientes: {{ product.ingredients}}</li>\n            <li>Presentación: {{ product.presentation }}</li>\n          </ul>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n");
 
 /***/ }),
 
@@ -361,7 +361,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <ion-slides #bSlide\n                pager=\"true\" \n              [options]=\"slideOpts\" \n              >\n    <ion-slide *ngFor=\"let img of slideImgs\">\n      <img [src]=\"img\" />\n    </ion-slide>\n   </ion-slides>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <ion-slides #bSlide\n                pager=\"true\" \n              [options]=\"slideOpts\" \n              class=\"animate__animated animate__fadeInDownBig\"\n              >\n    <ion-slide *ngFor=\"let img of slideImgs\">\n      <img [src]=\"img\" />\n    </ion-slide>\n   </ion-slides>\n</div>");
 
 /***/ }),
 
@@ -449,6 +449,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic-native/splash-screen/ngx */ "./node_modules/@ionic-native/splash-screen/__ivy_ngcc__/ngx/index.js");
 /* harmony import */ var _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic-native/status-bar/ngx */ "./node_modules/@ionic-native/status-bar/__ivy_ngcc__/ngx/index.js");
 /* harmony import */ var _services_language_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./services/language.service */ "./src/app/services/language.service.ts");
+/* harmony import */ var ngx_wow__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-wow */ "./node_modules/ngx-wow/__ivy_ngcc__/esm2015/ngx-wow.js");
+
 
 
 
@@ -456,11 +458,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AppComponent = class AppComponent {
-    constructor(platform, splashScreen, statusBar, languageService) {
+    constructor(platform, splashScreen, statusBar, languageService, wowService) {
         this.platform = platform;
         this.splashScreen = splashScreen;
         this.statusBar = statusBar;
         this.languageService = languageService;
+        this.wowService = wowService;
         this.initializeApp();
     }
     initializeApp() {
@@ -468,6 +471,7 @@ let AppComponent = class AppComponent {
             this.statusBar.styleDefault();
             this.languageService.init();
             this.splashScreen.hide();
+            this.wowService.init();
         });
     }
 };
@@ -475,7 +479,8 @@ AppComponent.ctorParameters = () => [
     { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["Platform"] },
     { type: _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__["SplashScreen"] },
     { type: _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__["StatusBar"] },
-    { type: _services_language_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"] }
+    { type: _services_language_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"] },
+    { type: ngx_wow__WEBPACK_IMPORTED_MODULE_6__["NgwWowService"] }
 ];
 AppComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -514,6 +519,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @ngx-translate/core */ "./node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
 /* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/components.module */ "./src/app/components/components.module.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var ngx_wow__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ngx-wow */ "./node_modules/ngx-wow/__ivy_ngcc__/esm2015/ngx-wow.js");
+
 
 
 
@@ -542,6 +549,7 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
             _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicModule"].forRoot(),
             _app_routing_module__WEBPACK_IMPORTED_MODULE_8__["AppRoutingModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"],
+            ngx_wow__WEBPACK_IMPORTED_MODULE_14__["NgwWowModule"],
             _ngx_translate_core__WEBPACK_IMPORTED_MODULE_11__["TranslateModule"].forRoot({
                 loader: {
                     provide: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_11__["TranslateLoader"],
@@ -624,7 +632,6 @@ ComponentsModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         providers: [],
         imports: [
             _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
-            _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["IonicModule"].forRoot(),
             _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
             _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__["TranslateModule"].forChild(),
@@ -701,7 +708,7 @@ FabButtonComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("div#footer-container {\n  background-color: var(--ion-text-color) !important;\n  color: var(--ion-background-color) !important;\n}\n\nion-grid {\n  width: 70%;\n}\n\nion-list {\n  background-color: var(--ion-text-color) !important;\n}\n\nion-list ion-list-header {\n  color: var(--ion-background-color) !important;\n}\n\nion-item {\n  --background: var(--ion-text-color) !important;\n  --color: var(--ion-background-color) !important;\n}\n\nion-item ion-icon {\n  padding-right: 15px;\n  color: var(--ion-background-color) !important;\n}\n\nion-label {\n  color: white !important;\n  cursor: pointer !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0RBQUE7RUFDQSw2Q0FBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksa0RBQUE7QUFDSjs7QUFBSTtFQUNJLDZDQUFBO0FBRVI7O0FBRUE7RUFDSSw4Q0FBQTtFQUNBLCtDQUFBO0FBQ0o7O0FBQUk7RUFDSSxtQkFBQTtFQUNBLDZDQUFBO0FBRVI7O0FBRUE7RUFDSSx1QkFBQTtFQUNBLDBCQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYjZm9vdGVyLWNvbnRhaW5lciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0taW9uLXRleHQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xufVxuXG5pb24tZ3JpZCB7XG4gICAgd2lkdGg6IDcwJTtcbn1cblxuaW9uLWxpc3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1saXN0LWhlYWRlciB7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvcikgIWltcG9ydGFudDtcbiAgICB9XG59XG5cbmlvbi1pdGVtIHtcbiAgICAtLWJhY2tncm91bmQ6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIC0tY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1pY29uIHtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICAgICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIH1cbn1cblxuaW9uLWxhYmVsIHtcbiAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcbiAgICBjdXJzb3I6IHBvaW50ZXIgIWltcG9ydGFudDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("div#footer-container {\n  background-color: var(--ion-text-color) !important;\n  color: var(--ion-background-color) !important;\n}\n\nion-grid {\n  width: 70%;\n}\n\nion-list {\n  background-color: var(--ion-text-color) !important;\n}\n\nion-list ion-list-header {\n  color: var(--ion-background-color) !important;\n}\n\nion-item {\n  --background: var(--ion-text-color) !important;\n  --color: var(--ion-background-color) !important;\n}\n\nion-item ion-icon {\n  padding-right: 15px;\n  color: var(--ion-background-color) !important;\n}\n\nion-label {\n  color: var(--ion-background-color) !important;\n  cursor: pointer !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0RBQUE7RUFDQSw2Q0FBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksa0RBQUE7QUFDSjs7QUFBSTtFQUNJLDZDQUFBO0FBRVI7O0FBRUE7RUFDSSw4Q0FBQTtFQUNBLCtDQUFBO0FBQ0o7O0FBQUk7RUFDSSxtQkFBQTtFQUNBLDZDQUFBO0FBRVI7O0FBRUE7RUFDSSw2Q0FBQTtFQUNBLDBCQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYjZm9vdGVyLWNvbnRhaW5lciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0taW9uLXRleHQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xufVxuXG5pb24tZ3JpZCB7XG4gICAgd2lkdGg6IDcwJTtcbn1cblxuaW9uLWxpc3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1saXN0LWhlYWRlciB7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvcikgIWltcG9ydGFudDtcbiAgICB9XG59XG5cbmlvbi1pdGVtIHtcbiAgICAtLWJhY2tncm91bmQ6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIC0tY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1pY29uIHtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICAgICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIH1cbn1cblxuaW9uLWxhYmVsIHtcbiAgICBjb2xvcjogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgY3Vyc29yOiBwb2ludGVyICFpbXBvcnRhbnQ7XG59Il19 */");
 
 /***/ }),
 
@@ -778,6 +785,35 @@ let HeaderComponent = class HeaderComponent {
         this.homeTitle = '';
     }
     ngOnInit() {
+        // The debounce function receives our function as a parameter
+        const debounce = (fn) => {
+            console.log('debounce');
+            // This holds the requestAnimationFrame reference, so we can cancel it if we wish
+            let frame;
+            // The debounce function returns a new function that can receive a variable number of arguments
+            return (...params) => {
+                // If the frame variable has been defined, clear it now, and queue for next frame
+                if (frame) {
+                    cancelAnimationFrame(frame);
+                }
+                // Queue our function call for the next frame
+                frame = requestAnimationFrame(() => {
+                    // Call our function and pass any params we received
+                    fn(...params);
+                });
+            };
+        };
+        // Reads out the scroll position and stores it in the data attribute
+        // so we can use it in our stylesheets
+        const storeScroll = () => {
+            console.log('scrollY', window.scrollY.toString());
+            document.documentElement.dataset.scroll = window.scrollY.toString();
+        };
+        // Listen for new scroll events, here we debounce our `storeScroll` function
+        console.log('event listener');
+        document.addEventListener('scroll', debounce(storeScroll));
+        // Update scroll position for first time
+        storeScroll();
     }
     ngAfterViewInit() {
         this.currentLang = this.langService.getCurrentLang();

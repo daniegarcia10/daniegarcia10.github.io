@@ -1,4 +1,8 @@
 (function () {
+  function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+  function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
   (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["pages-home-home-module"], {
@@ -18,7 +22,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content>\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card>\n    <ion-card-content class=\"p-y-0\">\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"p-y-0\">\n            <img height=\"350px\" width=\"600px\" src=\"../../../assets/images/logo_1.png\" />\n          </ion-col>\n          <ion-col size=\"7\" class=\"d-flex align-items-center p-y-0\">\n            <br>\n            <ion-text class=\"text-color\">\n              <p class=\"font-20\">\n                {{ 'bussiness_description_paragraph_1' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_2' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_3' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_4' | translate}}\n              </p>\n            </ion-text>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-content>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center\">\n            <div>\n              <ion-text color=\"primary\">\n                <h1 class=\"font-28\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col>\n            <img src=\"../../../assets/images/phone-img/image2.jpeg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <app-product-section></app-product-section>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n  <app-footer></app-footer>\n</ion-content>\n\n";
+      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card>\n    <ion-card-content class=\"py-0\">\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"py-0\">\n            <img class=\"wow animate__animated animate__bounceInLeft circle\" data-wow-delay=\"1s\" height=\"350px\" width=\"600px\" src=\"../../../assets/images/logo_1.png\" />\n          </ion-col>\n          <ion-col size=\"7\" class=\"d-flex align-items-center p-y-0\">\n            <br>\n            <ion-text class=\"text-color\">\n              <p class=\"font-20 wow animate__animated animate__bounceInRight\" data-wow-delay=\"1s\" >\n                {{ 'bussiness_description_paragraph_1' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_2' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_3' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_4' | translate}}\n              </p>\n            </ion-text>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-content>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center\">\n            <div>\n              <ion-text color=\"primary\">\n                <h1 class=\"font-28\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col>\n            <img class=\"circle\" src=\"../../../assets/images/phone-img/image2.jpeg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <app-product-section></app-product-section>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n  <app-footer></app-footer>\n</ion-content>\n\n";
       /***/
     },
 
@@ -219,11 +223,25 @@
       /*! @angular/core */
       "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-      var HomePage = function HomePage() {
-        _classCallCheck(this, HomePage);
+      var HomePage = /*#__PURE__*/function () {
+        function HomePage() {
+          _classCallCheck(this, HomePage);
 
-        this.slideImgs = ['../../../assets/images/slides/all_products.jpeg', '../../../assets/images/slides/slide_1.jpg', '../../../assets/images/slides/slide_2.jpg', '../../../assets/images/slides/slide_3.jpg', '../../../assets/images/slides/slide_4.jpg', '../../../assets/images/slides/slide_5.jpg'];
-      };
+          this.slideImgs = ['../../../assets/images/slides/all_products.jpeg', '../../../assets/images/slides/slide_1.jpg', '../../../assets/images/slides/slide_2.jpg', '../../../assets/images/slides/slide_3.jpg', '../../../assets/images/slides/slide_4.jpg', '../../../assets/images/slides/quinoa.jpg'];
+        }
+
+        _createClass(HomePage, [{
+          key: "ngAfterViewInit",
+          value: function ngAfterViewInit() {}
+        }, {
+          key: "scroll",
+          value: function scroll(event) {
+            document.documentElement.dataset.scroll = event.detail.scrollTop;
+          }
+        }]);
+
+        return HomePage;
+      }();
 
       HomePage.ctorParameters = function () {
         return [];
