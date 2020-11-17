@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            src=\"../../../assets/images/logo_2.png\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>");
 
 /***/ }),
 
@@ -348,7 +348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-grid>\n  <ion-row>\n    <ion-col  size=\"12\"\n              size-lg=\"6\"\n              *ngFor=\"let product of products\">\n              <app-product-card [product]=\"product\"></app-product-card>\n    </ion-col>\n  </ion-row>\n</ion-grid>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-grid>\n  <ion-row>\n    <ion-col  size=\"12\"\n              size-lg=\"4\"\n              *ngFor=\"let product of products\">\n              <app-product-card [product]=\"product\"></app-product-card>\n    </ion-col>\n  </ion-row>\n</ion-grid>\n");
 
 /***/ }),
 
@@ -708,7 +708,7 @@ FabButtonComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("div#footer-container {\n  background-color: var(--ion-text-color) !important;\n  color: var(--ion-background-color) !important;\n}\n\nion-grid {\n  width: 70%;\n}\n\nion-list {\n  background-color: var(--ion-text-color) !important;\n}\n\nion-list ion-list-header {\n  color: var(--ion-background-color) !important;\n}\n\nion-item {\n  --background: var(--ion-text-color) !important;\n  --color: var(--ion-background-color) !important;\n}\n\nion-item ion-icon {\n  padding-right: 15px;\n  color: var(--ion-background-color) !important;\n}\n\nion-label {\n  color: var(--ion-background-color) !important;\n  cursor: pointer !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0RBQUE7RUFDQSw2Q0FBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksa0RBQUE7QUFDSjs7QUFBSTtFQUNJLDZDQUFBO0FBRVI7O0FBRUE7RUFDSSw4Q0FBQTtFQUNBLCtDQUFBO0FBQ0o7O0FBQUk7RUFDSSxtQkFBQTtFQUNBLDZDQUFBO0FBRVI7O0FBRUE7RUFDSSw2Q0FBQTtFQUNBLDBCQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYjZm9vdGVyLWNvbnRhaW5lciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0taW9uLXRleHQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xufVxuXG5pb24tZ3JpZCB7XG4gICAgd2lkdGg6IDcwJTtcbn1cblxuaW9uLWxpc3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1saXN0LWhlYWRlciB7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvcikgIWltcG9ydGFudDtcbiAgICB9XG59XG5cbmlvbi1pdGVtIHtcbiAgICAtLWJhY2tncm91bmQ6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIC0tY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1pY29uIHtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICAgICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIH1cbn1cblxuaW9uLWxhYmVsIHtcbiAgICBjb2xvcjogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgY3Vyc29yOiBwb2ludGVyICFpbXBvcnRhbnQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("div#footer-container {\n  background-color: var(--ion-background-color-primary) !important;\n  color: var(--ion-text-color) !important;\n}\n\nion-grid {\n  width: 70%;\n}\n\nion-list {\n  background-color: var(--ion-background-color-primary) !important;\n}\n\nion-list ion-list-header {\n  color: var(--ion-text-color) !important;\n}\n\nion-item {\n  --background: var(--ion-background-color-primary) !important;\n  --color: var(--ion-text-color) !important;\n}\n\nion-item ion-icon {\n  padding-right: 15px;\n  color: var(--ion-text-color) !important;\n}\n\nion-label {\n  color: var(--ion-text-color) !important;\n  cursor: pointer !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0VBQUE7RUFDQSx1Q0FBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksZ0VBQUE7QUFDSjs7QUFBSTtFQUNJLHVDQUFBO0FBRVI7O0FBRUE7RUFDSSw0REFBQTtFQUNBLHlDQUFBO0FBQ0o7O0FBQUk7RUFDSSxtQkFBQTtFQUNBLHVDQUFBO0FBRVI7O0FBRUE7RUFDSSx1Q0FBQTtFQUNBLDBCQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYjZm9vdGVyLWNvbnRhaW5lciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3ItcHJpbWFyeSkgIWltcG9ydGFudDtcbiAgICBjb2xvcjogdmFyKC0taW9uLXRleHQtY29sb3IpICFpbXBvcnRhbnQ7XG59XG5cbmlvbi1ncmlkIHtcbiAgICB3aWR0aDogNzAlO1xufVxuXG5pb24tbGlzdCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3ItcHJpbWFyeSkgIWltcG9ydGFudDtcbiAgICBpb24tbGlzdC1oZWFkZXIge1xuICAgICAgICBjb2xvcjogdmFyKC0taW9uLXRleHQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgfVxufVxuXG5pb24taXRlbSB7XG4gICAgLS1iYWNrZ3JvdW5kOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1wcmltYXJ5KSAhaW1wb3J0YW50O1xuICAgIC0tY29sb3I6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIGlvbi1pY29uIHtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICAgICAgY29sb3I6IHZhcigtLWlvbi10ZXh0LWNvbG9yKSAhaW1wb3J0YW50O1xuICAgIH1cbn1cblxuaW9uLWxhYmVsIHtcbiAgICBjb2xvcjogdmFyKC0taW9uLXRleHQtY29sb3IpICFpbXBvcnRhbnQ7XG4gICAgY3Vyc29yOiBwb2ludGVyICFpbXBvcnRhbnQ7XG59Il19 */");
 
 /***/ }),
 
@@ -752,7 +752,7 @@ FooterComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("ion-button {\n  --border-radius: 30px !important;\n}\n\nimg.home-img {\n  cursor: pointer !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0NBQUE7QUFDSjs7QUFFQTtFQUNJLDBCQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24tYnV0dG9uIHtcbiAgICAtLWJvcmRlci1yYWRpdXM6IDMwcHggIWltcG9ydGFudDtcbn1cblxuaW1nLmhvbWUtaW1nIHtcbiAgICBjdXJzb3I6IHBvaW50ZXIgIWltcG9ydGFudDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("ion-button {\n  --border-radius: 30px !important;\n}\n\nimg.home-img {\n  cursor: pointer !important;\n}\n\nion-toolbar, ion-item {\n  --background: var(--ion-background-color-primary);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0NBQUE7QUFDSjs7QUFFQTtFQUNJLDBCQUFBO0FBQ0o7O0FBRUE7RUFDSSxpREFBQTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWJ1dHRvbiB7XG4gICAgLS1ib3JkZXItcmFkaXVzOiAzMHB4ICFpbXBvcnRhbnQ7XG59XG5cbmltZy5ob21lLWltZyB7XG4gICAgY3Vyc29yOiBwb2ludGVyICFpbXBvcnRhbnQ7XG59XG5cbmlvbi10b29sYmFyLCBpb24taXRlbSB7XG4gICAgLS1iYWNrZ3JvdW5kOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1wcmltYXJ5KTtcbn0gICAiXX0= */");
 
 /***/ }),
 
@@ -785,35 +785,6 @@ let HeaderComponent = class HeaderComponent {
         this.homeTitle = '';
     }
     ngOnInit() {
-        // The debounce function receives our function as a parameter
-        const debounce = (fn) => {
-            console.log('debounce');
-            // This holds the requestAnimationFrame reference, so we can cancel it if we wish
-            let frame;
-            // The debounce function returns a new function that can receive a variable number of arguments
-            return (...params) => {
-                // If the frame variable has been defined, clear it now, and queue for next frame
-                if (frame) {
-                    cancelAnimationFrame(frame);
-                }
-                // Queue our function call for the next frame
-                frame = requestAnimationFrame(() => {
-                    // Call our function and pass any params we received
-                    fn(...params);
-                });
-            };
-        };
-        // Reads out the scroll position and stores it in the data attribute
-        // so we can use it in our stylesheets
-        const storeScroll = () => {
-            console.log('scrollY', window.scrollY.toString());
-            document.documentElement.dataset.scroll = window.scrollY.toString();
-        };
-        // Listen for new scroll events, here we debounce our `storeScroll` function
-        console.log('event listener');
-        document.addEventListener('scroll', debounce(storeScroll));
-        // Update scroll position for first time
-        storeScroll();
     }
     ngAfterViewInit() {
         this.currentLang = this.langService.getCurrentLang();
@@ -857,7 +828,7 @@ HeaderComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".image {\n  opacity: 1;\n  display: block;\n  width: 100%;\n  height: auto;\n  transition: 0.5s ease;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n\n.middle {\n  transition: 0.5s ease;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  text-align: center;\n}\n\nion-card-content:hover .image {\n  opacity: 0.3;\n}\n\nion-card-content:hover .middle {\n  opacity: 1;\n}\n\nion-button {\n  color: var(--ion-color-primary);\n  height: 70px;\n  width: 70px;\n  --border-radius: 100%;\n  opacity: 90%;\n}\n\nion-button ion-icon {\n  color: white;\n  height: 100%;\n  width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LWNhcmQvcHJvZHVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksVUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0VBQ0Esb0NBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksK0JBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtFQUNBLHFCQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUFJO0VBQ0ksWUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FBRVIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3Byb2R1Y3QtY2FyZC9wcm9kdWN0LWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1hZ2Uge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHRyYW5zaXRpb246IC41cyBlYXNlO1xuICAgIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcbn1cblxuLm1pZGRsZSB7XG4gICAgdHJhbnNpdGlvbjogLjVzIGVhc2U7XG4gICAgb3BhY2l0eTogMDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmlvbi1jYXJkLWNvbnRlbnQ6aG92ZXIgLmltYWdlIHtcbiAgICBvcGFjaXR5OiAwLjM7XG59XG5cbmlvbi1jYXJkLWNvbnRlbnQ6aG92ZXIgLm1pZGRsZSB7XG4gICAgb3BhY2l0eTogMTtcbn1cblxuaW9uLWJ1dHRvbiB7XG4gICAgY29sb3I6IHZhcigtLWlvbi1jb2xvci1wcmltYXJ5KTtcbiAgICBoZWlnaHQ6IDcwcHg7XG4gICAgd2lkdGg6IDcwcHg7XG4gICAgLS1ib3JkZXItcmFkaXVzOiAxMDAlO1xuICAgIG9wYWNpdHk6IDkwJTtcbiAgICBpb24taWNvbiB7XG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICB9XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".image {\n  opacity: 1;\n  display: block;\n  width: 100%;\n  height: auto;\n  transition: 0.5s ease;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n\n.middle {\n  transition: 0.5s ease;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  text-align: center;\n}\n\nion-card-content:hover .image {\n  opacity: 0.3;\n}\n\nion-card-content:hover .middle {\n  opacity: 1;\n}\n\nion-button {\n  color: var(--ion-background-color-secondary);\n  --background: var(--ion-background-color-tertiary);\n  height: 70px;\n  width: 70px;\n  --border-radius: 100%;\n  opacity: 90%;\n}\n\nion-button ion-icon {\n  color: white;\n  height: 100%;\n  width: 100%;\n}\n\nion-card {\n  --background: var(--ion-background-color-secondary);\n}\n\nion-card h1 {\n  color: var(--ion-background-color-cuartery);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LWNhcmQvcHJvZHVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksVUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0VBQ0Esb0NBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksNENBQUE7RUFDQSxrREFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EscUJBQUE7RUFDQSxZQUFBO0FBQ0o7O0FBQUk7RUFDSSxZQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUFFUjs7QUFFQTtFQUNJLG1EQUFBO0FBQ0o7O0FBQUk7RUFDSSwyQ0FBQTtBQUVSIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LWNhcmQvcHJvZHVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltYWdlIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogYXV0bztcbiAgICB0cmFuc2l0aW9uOiAuNXMgZWFzZTtcbiAgICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG59XG5cbi5taWRkbGUge1xuICAgIHRyYW5zaXRpb246IC41cyBlYXNlO1xuICAgIG9wYWNpdHk6IDA7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5pb24tY2FyZC1jb250ZW50OmhvdmVyIC5pbWFnZSB7XG4gICAgb3BhY2l0eTogMC4zO1xufVxuXG5pb24tY2FyZC1jb250ZW50OmhvdmVyIC5taWRkbGUge1xuICAgIG9wYWNpdHk6IDE7XG59XG5cbmlvbi1idXR0b24ge1xuICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1zZWNvbmRhcnkpO1xuICAgIC0tYmFja2dyb3VuZDogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3ItdGVydGlhcnkpO1xuICAgIGhlaWdodDogNzBweDtcbiAgICB3aWR0aDogNzBweDtcbiAgICAtLWJvcmRlci1yYWRpdXM6IDEwMCU7XG4gICAgb3BhY2l0eTogOTAlO1xuICAgIGlvbi1pY29uIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbn1cblxuaW9uLWNhcmQge1xuICAgIC0tYmFja2dyb3VuZDogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3Itc2Vjb25kYXJ5KTtcbiAgICBoMSB7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1jdWFydGVyeSk7XG4gICAgfVxufSJdfQ== */");
 
 /***/ }),
 
@@ -1019,6 +990,15 @@ let ProductSectionComponent = class ProductSectionComponent {
                 ingredients: 'Cacahuate tostado',
                 presentation: '250 g.',
                 price: '$95.00'
+            },
+            {
+                name: 'Untable de almendras',
+                img: '../../../assets/images/products/Almendra_1.jpg',
+                dsc: ['Aporta aminoacidos escenciales y una importante fuente de calcio y magnesio.',
+                    'Ayuda a mantener una piel sana gracias a su vitamina E.'],
+                ingredients: 'Almendras horneadas',
+                presentation: '250 g.',
+                price: '$150.00'
             }
         ];
     }
