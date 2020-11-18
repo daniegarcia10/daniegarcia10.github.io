@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card class=\"background-cuartery animate__animated animate__backInDown\" data-wow-duration=\"2s\" data-wow-delay=\"1s\">\n    <ion-card-content class=\"py-0\">\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"py-0\">\n            <img class=\"circle\" height=\"350px\" width=\"600px\" \n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"   />\n          </ion-col>\n          <ion-col size=\"7\" class=\"d-flex align-items-center p-y-0\">\n            <br>\n            <ion-text class=\"text-color\">\n              <p class=\"font-20\" >\n                {{ 'bussiness_description_paragraph_1' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_2' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_3' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_4' | translate}}\n              </p>\n            </ion-text>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <div>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center animate__animated animate__bounceInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <div>\n              <ion-text>\n                <h1 class=\"font-28 text-primary-dark\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col class=\"animate__animated animate__bounceInRight\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <img class=\"circle\" src=\"../../../assets/images/phone-img/image2.jpeg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n  </div>\n  <app-product-section></app-product-section>\n  <div class=\"animate__animated animate__backInUp pt-2\" data-wow-duration=\"2s\" data-wow-delay=\"5s\">\n    <img src=\"../../../assets/images/infsión-2.png\" />\n  </div>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n  <app-footer></app-footer>\n</ion-content>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card class=\"background-cuartery animate__animated animate__backInDown\" data-wow-duration=\"2s\" data-wow-delay=\"1s\">\n    <ion-card-content class=\"py-0\">\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"py-0\">\n            <img class=\"circle\" height=\"350px\" width=\"600px\" \n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"   />\n          </ion-col>\n          <ion-col size=\"7\" class=\"d-flex align-items-center p-y-0\">\n            <br>\n            <ion-text class=\"text-color\">\n              <p class=\"font-20\" >\n                {{ 'bussiness_description_paragraph_1' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_2' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_3' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_4' | translate}}\n              </p>\n            </ion-text>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <div>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center animate__animated animate__bounceInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <div>\n              <ion-text>\n                <h1 class=\"font-28 text-primary-dark\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col class=\"animate__animated animate__bounceInRight\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <img class=\"circle\" src=\"../../../assets/images/phone-img/image2.jpeg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n  </div>\n  <app-product-section></app-product-section>\n  <div class=\"animate__animated animate__backInUp pt-2\" data-wow-duration=\"2s\" data-wow-delay=\"5s\">\n    <img [src]=\"imgSec.img_sec_2\" />\n  </div>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n  <app-footer></app-footer>\n</ion-content>\n\n");
 
 /***/ }),
 
@@ -123,10 +123,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePage", function() { return HomePage; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _services_language_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/language.service */ "./src/app/services/language.service.ts");
+
 
 
 let HomePage = class HomePage {
-    constructor() {
+    constructor(langService) {
+        this.langService = langService;
         this.slideImgs = [
             '../../../assets/images/slides/all_products.jpeg',
             '../../../assets/images/slides/slide_1.jpg',
@@ -136,13 +139,18 @@ let HomePage = class HomePage {
             '../../../assets/images/slides/quinoa.jpg'
         ];
     }
-    ngAfterViewInit() {
+    ngOnInit() {
+        this.langService.getImages().subscribe(data => {
+            this.imgSec = data;
+        });
     }
     scroll(event) {
         document.documentElement.dataset.scroll = event.detail.scrollTop;
     }
 };
-HomePage.ctorParameters = () => [];
+HomePage.ctorParameters = () => [
+    { type: _services_language_service__WEBPACK_IMPORTED_MODULE_2__["LanguageService"] }
+];
 HomePage = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-home',

@@ -22,7 +22,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <ion-grid class=\"p-0 start pb-4 mx-2 pt-3\">\n    <ion-row>\n      <ion-col class=\"p-0 d-flex justify-content-center\">\n        <img class=\"circle animate__animated animate__fadeInLeft wow\" src=\"../../../assets/images/local_product.jpg\"  data-wow-delay=\"0.5s\"/>\n      </ion-col>\n      <ion-col class=\"o-90\">\n        <ion-text color=\"secondary\" class=\"d-flex justify-content-center wow animate__animated animate__fadeInRight\" data-wow-delay=\"0.4s\">\n          <h1 class=\"font-40 popout\">{{ 'about_us'  | translate}}</h1>\n        </ion-text>\n        <ion-text class=\"p-l-5\">\n          <p class=\"font-24 p-l-20  wow animate__animated animate__fadeInRight\" data-wow-delay=\"0.8s\">{{ 'bussiness_description_paragraph_1' | translate}}</p>\n        </ion-text>\n        <ion-text>\n          <p class=\"font-24 p-l-20 wow animate__animated animate__fadeInRight\" data-wow-delay=\"1.2s\">{{ 'bussiness_description_paragraph_2' | translate}}</p>\n        </ion-text>\n        <ion-text>\n          <p class=\"font-24 p-l-20 wow animate__animated animate__fadeInRight\" data-wow-delay=\"1.6s\">{{ 'bussiness_description_paragraph_3' | translate}}</p>\n        </ion-text>\n        <ion-text>\n          <p class=\"font-24 p-l-20 wow animate__animated animate__fadeInRight\" data-wow-delay=\"2s\">{{ 'bussiness_description_paragraph_4' | translate}}</p>\n        </ion-text>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-card class=\"background-cuartery\">\n    <ion-card-content>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center\">\n            <div>\n              <ion-text color=\"primary\">\n                <h1 class=\"font-28\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col>\n            <img class=\"circle\" src=\"../../../assets/images/matcha_bowl_2.jpg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <div>\n    <img src=\"../../../assets/images/infsión-4.png\" />\n  </div>\n  <div>\n    <img src=\"../../../assets/images/infsión-1.png\" />\n  </div>\n  <div>\n    <img src=\"../../../assets/images/infsión-3.png\" />\n  </div>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n  <app-footer></app-footer>\n</ion-content>\n";
+      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <ion-grid class=\"p-0 start pb-4 mx-2 pt-3\">\n    <ion-row>\n      <ion-col class=\"p-0 d-flex justify-content-center\">\n        <img class=\"circle animate__animated animate__fadeInLeft wow\" src=\"../../../assets/images/local_product.jpg\"  data-wow-delay=\"0.5s\"/>\n      </ion-col>\n      <ion-col class=\"o-90\">\n        <ion-text color=\"secondary\" class=\"d-flex justify-content-center wow animate__animated animate__fadeInRight\" data-wow-delay=\"0.4s\">\n          <h1 class=\"font-40 popout\">{{ 'about_us'  | translate}}</h1>\n        </ion-text>\n        <ion-text class=\"p-l-5\">\n          <p class=\"font-24 p-l-20  wow animate__animated animate__fadeInRight\" data-wow-delay=\"0.8s\">{{ 'bussiness_description_paragraph_1' | translate}}</p>\n        </ion-text>\n        <ion-text>\n          <p class=\"font-24 p-l-20 wow animate__animated animate__fadeInRight\" data-wow-delay=\"1.2s\">{{ 'bussiness_description_paragraph_2' | translate}}</p>\n        </ion-text>\n        <ion-text>\n          <p class=\"font-24 p-l-20 wow animate__animated animate__fadeInRight\" data-wow-delay=\"1.6s\">{{ 'bussiness_description_paragraph_3' | translate}}</p>\n        </ion-text>\n        <ion-text>\n          <p class=\"font-24 p-l-20 wow animate__animated animate__fadeInRight\" data-wow-delay=\"2s\">{{ 'bussiness_description_paragraph_4' | translate}}</p>\n        </ion-text>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-card class=\"background-cuartery\">\n    <ion-card-content>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center\">\n            <div>\n              <ion-text color=\"primary\">\n                <h1 class=\"font-28\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col>\n            <img class=\"circle\" src=\"../../../assets/images/matcha_bowl_2.jpg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <div>\n    <img [src]=\"imgSec.img_sec_4\" />\n  </div>\n  <div>\n    <img [src]=\"imgSec.img_sec_1\" />\n  </div>\n  <div>\n    <img [src]=\"imgSec.img_sec_3\" />\n  </div>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n  <app-footer></app-footer>\n</ion-content>\n";
       /***/
     },
 
@@ -222,15 +222,29 @@
       var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/core */
       "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+      /* harmony import */
+
+
+      var _services_language_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ../../services/language.service */
+      "./src/app/services/language.service.ts");
 
       var AboutUsPage = /*#__PURE__*/function () {
-        function AboutUsPage() {
+        function AboutUsPage(langService) {
           _classCallCheck(this, AboutUsPage);
+
+          this.langService = langService;
         }
 
         _createClass(AboutUsPage, [{
           key: "ngOnInit",
-          value: function ngOnInit() {}
+          value: function ngOnInit() {
+            var _this = this;
+
+            this.langService.getImages().subscribe(function (data) {
+              _this.imgSec = data;
+            });
+          }
         }, {
           key: "scroll",
           value: function scroll(event) {
@@ -242,7 +256,9 @@
       }();
 
       AboutUsPage.ctorParameters = function () {
-        return [];
+        return [{
+          type: _services_language_service__WEBPACK_IMPORTED_MODULE_2__["LanguageService"]
+        }];
       };
 
       AboutUsPage = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({

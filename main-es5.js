@@ -193,7 +193,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>";
+      __webpack_exports__["default"] = "<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/shopping-cart']\"><ion-icon class=\"font-28\" name=\"cart-outline\"></ion-icon></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>";
       /***/
     },
 
@@ -213,7 +213,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<ion-card>\n  <ion-card-content>\n    <img [src]=\"product.img\" class=\"image circle\">\n    <div class=\"middle\">\n      <ion-button (click)=\"showModal(product)\">\n        <ion-icon name=\"eye-outline\"></ion-icon>\n      </ion-button>\n    </div>\n    <ion-text color=\"primary\">\n      <h1>{{ product.name | translate }}</h1>\n    </ion-text>\n    <ul class=\"text-color font-20\">\n      <li >Ingredientes: {{ product.ingredients}}</li>\n      <li>Presentación: {{ product.presentation }}</li>\n      <li>Precio público: {{ product.price }}</li>\n    </ul>\n  </ion-card-content>\n</ion-card>";
+      __webpack_exports__["default"] = "<ion-card>\n  <ion-card-content>\n    <img [src]=\"product.img\" class=\"image circle\">\n    <div class=\"middle\">\n      <ion-button (click)=\"showModal(product)\">\n        <ion-icon name=\"eye-outline\"></ion-icon>\n      </ion-button>\n    </div>\n    <ion-text color=\"primary\">\n      <h1>{{ product.name | translate }}</h1>\n    </ion-text>\n    <ul class=\"text-color font-20\">\n      <li >{{'product_ingredients' | translate}}: {{ product.ingredients}}</li>\n      <li>{{'product_presentation' | translate}}: {{ product.presentation }}</li>\n      <li>{{'product_price' | translate}}: {{ product.price }}</li>\n    </ul>\n  </ion-card-content>\n</ion-card>";
       /***/
     },
 
@@ -233,7 +233,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<ion-header translucent mode=\"ios\">\n  <ion-toolbar>\n    <ion-buttons slot=\"end\">\n      <ion-button (click)=\"dismissModal()\">\n        <ion-icon name=\"close-outline\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content class=\"card-content\">\n  <ion-grid>\n    <ion-row>\n      <ion-col size=\"6\" class=\"d-flex align-items-center\">\n        <img [src]=\"product.img\" class=\"image circle\">\n      </ion-col>\n      <ion-col size=\"6\">  \n        <ion-text color=\"primary\">\n          <h1>{{ product.name | translate }}</h1>\n        </ion-text>    \n        <ion-text color=\"secondary\">\n          <h2>{{ product.price | translate }}</h2>\n        </ion-text>  \n        <div class=\"desc-container p-t-20\">\n          <p *ngFor=\"let dsc of product.dsc\">\n            {{ dsc }}\n          </p>\n          <ul>\n            <li>Ingredientes: {{ product.ingredients}}</li>\n            <li>Presentación: {{ product.presentation }}</li>\n          </ul>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n";
+      __webpack_exports__["default"] = "<ion-header translucent mode=\"ios\">\n  <ion-toolbar>\n    <ion-buttons slot=\"end\">\n      <ion-button (click)=\"dismissModal()\">\n        <ion-icon name=\"close-outline\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content class=\"card-content\">\n  <ion-grid>\n    <ion-row>\n      <ion-col size=\"6\" class=\"d-flex align-items-center\">\n        <img [src]=\"product.img\" class=\"image circle\">\n      </ion-col>\n      <ion-col size=\"6\">  \n        <ion-text color=\"primary\">\n          <h1>{{ product.name | translate }}</h1>\n        </ion-text>    \n        <ion-text color=\"secondary\">\n          <h2>{{ product.price | translate }}</h2>\n        </ion-text>  \n        <div class=\"desc-container p-t-20\">\n          <p *ngFor=\"let dsc of product.dsc\">\n            {{ dsc }}\n          </p>\n          <ul>\n            <li>{{'product_ingredients' | translate}}: {{ product.ingredients}}</li>\n            <li>{{'product_presentation' | translate}}: {{ product.presentation }}</li>\n          </ul>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n";
       /***/
     },
 
@@ -357,6 +357,17 @@
           /*! ./pages/about-us/about-us.module */
           "./src/app/pages/about-us/about-us.module.ts")).then(function (m) {
             return m.AboutUsPageModule;
+          });
+        }
+      }, {
+        path: 'shopping-cart',
+        loadChildren: function loadChildren() {
+          return __webpack_require__.e(
+          /*! import() | pages-shopping-cart-shopping-cart-module */
+          "pages-shopping-cart-shopping-cart-module").then(__webpack_require__.bind(null,
+          /*! ./pages/shopping-cart/shopping-cart.module */
+          "./src/app/pages/shopping-cart/shopping-cart.module.ts")).then(function (m) {
+            return m.ShoppingCartPageModule;
           });
         }
       }, {
@@ -1570,14 +1581,7 @@
         }, {
           key: "ngAfterViewInit",
           value: function ngAfterViewInit() {
-            console.log(this.slide); // Is always undefined.
-
             this.slide.startAutoplay();
-          }
-        }, {
-          key: "slidesDidLoad",
-          value: function slidesDidLoad(slides) {
-            console.log(slides);
           }
         }]);
 
@@ -1690,6 +1694,11 @@
           key: "getCurrentLang",
           value: function getCurrentLang() {
             return this.translate.currentLang;
+          }
+        }, {
+          key: "getImages",
+          value: function getImages() {
+            return this.translate.stream(['img_sec_1', 'img_sec_2', 'img_sec_3', 'img_sec_4', 'img_sec_5']);
           }
         }]);
 
