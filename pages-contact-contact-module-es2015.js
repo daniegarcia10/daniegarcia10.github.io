@@ -1938,7 +1938,7 @@ var KmlOverlay = /** @class */ (function (_super) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<ion-content\n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card class=\"background-cuartery\">\n    <ion-card-content>\n      <ion-grid>\n        <ion-row>\n          <ion-col size=\"8\">\n            <div id=\"map_canvas\"></div>\n          </ion-col>\n          <ion-col>\n            <ion-list>\n              <ion-list-header>\n                <h1 class=\"font-28\">{{ 'points_of_sale' | translate }}</h1>\n              </ion-list-header>\n              <ion-item *ngFor=\"let location of pointToSells\">\n                <ion-avatar slot=\"start\">\n                  <ion-icon class=\"font-32\" color=\"primary\" name=\"location-outline\"></ion-icon>\n                </ion-avatar>\n                <ion-label>\n                  <h2>{{ location.name }}</h2>\n                  <p> {{ location.street }} {{ location.number }}, {{ location.suburb }}, {{ location.state }} </p>\n                </ion-label>\n              </ion-item>\n            </ion-list>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <ion-card class=\"background-tertiary\">\n    <ion-card-header>\n      <ion-card-title class=\"text-primary-dark\">{{ 'contact' | translate }}</ion-card-title>\n    </ion-card-header>\n    <ion-card-content>\n      <ion-item>\n        <ion-label position=\"floating\">{{ 'name_form' | translate}}</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">{{ 'mail_form' | translate }}</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">{{ 'message_form' | translate }}</ion-label>\n        <ion-textarea></ion-textarea>\n      </ion-item>\n      <div class=\"d-flex w-100 p-t-20 justify-content-center\">\n        <ion-button>{{ 'common_send' | translate }}<ion-icon name=\"send-sharp\" class=\"p-l-5\"></ion-icon></ion-button>\n      </div>\n    </ion-card-content>\n  </ion-card>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n <app-footer></app-footer>\n</ion-content>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<ion-content\n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card class=\"background-cuartery\">\n    <ion-card-content>\n      <ion-grid>\n        <ion-row>\n          <ion-col size=\"8\" class=\"d-flex justify-content-center\">\n            <div id=\"map_canvas\"></div>\n          </ion-col>\n          <ion-col size=\"4\">\n            <ion-list >\n              <ion-list-header>\n                <h1 class=\"font-28\">{{ 'points_of_sale' | translate }}</h1>\n              </ion-list-header>\n              <div class=\"location-list\">\n                <ion-item *ngFor=\"let location of pointToSells\">\n                  <ion-avatar slot=\"start\">\n                    <ion-icon class=\"font-32\" color=\"primary\" name=\"location-outline\"></ion-icon>\n                  </ion-avatar>\n                  <ion-label>\n                    <h2>{{ location.name }}</h2>\n                    <p> {{ location.street }} {{ location.number }}, {{ location.suburb }}, {{ location.city }}, {{ location.state }} </p>\n                    <p *ngIf=\"location.tel\"> Tel. {{ location.tel }} </p>\n                  </ion-label>\n                </ion-item>\n              </div>\n            </ion-list>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <ion-card class=\"background-tertiary\">\n    <ion-card-header>\n      <ion-card-title class=\"text-primary-dark\">{{ 'contact' | translate }}</ion-card-title>\n    </ion-card-header>\n    <ion-card-content>\n      <ion-item>\n        <ion-label position=\"floating\">{{ 'name_form' | translate}}</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">{{ 'mail_form' | translate }}</ion-label>\n        <ion-input></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label position=\"floating\">{{ 'message_form' | translate }}</ion-label>\n        <ion-textarea></ion-textarea>\n      </ion-item>\n      <div class=\"d-flex w-100 p-t-20 justify-content-center\">\n        <ion-button>{{ 'common_send' | translate }}<ion-icon name=\"send-sharp\" class=\"p-l-5\"></ion-icon></ion-button>\n      </div>\n    </ion-card-content>\n  </ion-card>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n <app-footer></app-footer>\n</ion-content>\n\n");
 
 /***/ }),
 
@@ -2036,7 +2036,7 @@ ContactPageModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("#map_canvas {\n  width: 800px;\n  height: 500px;\n}\n\n#background-content {\n  background: var(--ion-background-color-tertiary) !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY29udGFjdC9jb250YWN0LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0FBQ0o7O0FBQ0E7RUFDSSwyREFBQTtBQUVKIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvY29udGFjdC9jb250YWN0LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYXBfY2FudmFzIHsgXG4gICAgd2lkdGg6IDgwMHB4O1xuICAgIGhlaWdodDogNTAwcHg7XG59XG4jYmFja2dyb3VuZC1jb250ZW50IHtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci10ZXJ0aWFyeSkgIWltcG9ydGFudDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("#map_canvas {\n  width: 750px;\n  height: 500px;\n}\n\n#background-content {\n  background: var(--ion-background-color-tertiary) !important;\n}\n\n.location-list {\n  max-height: 500px;\n  overflow-y: scroll;\n}\n\n.location-list p {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY29udGFjdC9jb250YWN0LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0FBQ0o7O0FBRUE7RUFDSSwyREFBQTtBQUNKOztBQUVBO0VBQ0ksaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUFJO0VBQ0ksWUFBQTtBQUVSIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvY29udGFjdC9jb250YWN0LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYXBfY2FudmFzIHsgXG4gICAgd2lkdGg6IDc1MHB4O1xuICAgIGhlaWdodDogNTAwcHg7XG59XG5cbiNiYWNrZ3JvdW5kLWNvbnRlbnQge1xuICAgIGJhY2tncm91bmQ6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yLXRlcnRpYXJ5KSAhaW1wb3J0YW50O1xufVxuXG4ubG9jYXRpb24tbGlzdCB7XG4gICAgbWF4LWhlaWdodDogNTAwcHg7XG4gICAgb3ZlcmZsb3cteTogc2Nyb2xsOyBcbiAgICBwIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgIH1cbn0iXX0= */");
 
 /***/ }),
 
@@ -2061,19 +2061,158 @@ __webpack_require__.r(__webpack_exports__);
 let ContactPage = class ContactPage {
     constructor(langService) {
         this.langService = langService;
-        this.slideImgs = ['../../../assets/images/slides/quinoa.jpg'];
-        this.pointToSells = [
+        this.slideImgs = ['../../../assets/images/phone-img/image11.jpeg'];
+        this.pointToSells = [{
+                name: 'PRANA Mercado orgánico',
+                street: 'De las Ferias',
+                number: '',
+                suburb: 'Hipódromo II',
+                city: 'Tijuana',
+                state: 'Baja california',
+                tel: 6648673735,
+                lat: 32.498361,
+                lng: -117.002753
+            },
             {
-                name: 'Deliroots',
-                street: 'Av. ferrocarril',
-                number: '#33',
-                suburb: 'El cerrito',
+                name: 'PRANA Mercado orgánico',
+                street: 'Calle España',
+                number: '9210',
+                suburb: 'Col. Madero (cacho)',
+                city: 'Tijuana',
+                state: 'Baja california',
+                tel: 6648673735,
+                lat: 32.5173317,
+                lng: -117.0271635
+            },
+            {
+                name: 'Botica Verde',
+                street: 'Eusebio francisco Kino',
+                number: '177',
+                suburb: '5 de mayo',
+                city: 'Hermosillo',
+                state: 'Sonora',
+                tel: 6622094057,
+                lat: 29.097151,
+                lng: -110.9469418
+            },
+            {
+                name: 'Mi Súper Saludable',
+                street: 'Blvd Central',
+                number: '4222',
+                suburb: 'Ejidal',
+                city: 'Guasave',
+                state: 'Sinaloa',
+                tel: 6871265993,
+                lat: 25.5465468,
+                lng: -108.4717082
+            },
+            {
+                name: 'Granel',
+                street: 'Av. De las cumbres',
+                number: '134',
+                suburb: 'colinas del Padre 3ra sección',
+                city: 'Zacatecas',
+                state: 'Zacatecas',
+                tel: 4921363558,
+                lat: 22.7477809,
+                lng: -102.5940392
+            },
+            {
+                name: 'HUNZA Orgánicos',
+                street: 'Blvd Juan Alonso de Torres',
+                number: '1701',
+                suburb: 'Valle del Campestre',
+                city: 'León',
+                state: 'Guanajuato',
+                lat: 21.1558522,
+                lng: -101.9735182,
+            },
+            {
+                name: 'HUNZA Orgánicos',
+                street: 'De Sopena',
+                number: '26',
+                suburb: 'Col. centro',
+                city: 'Guanajuato',
+                state: 'Guanajuato',
+                tel: 4737362078,
+                lat: 20.8056828,
+                lng: -101.080478
+            },
+            {
+                name: 'Mercadito 47',
+                street: 'Artilleros de 1847',
+                number: '1401',
+                suburb: 'Chapultepec Sur',
+                city: 'Morelia',
+                state: 'Michoacán',
+                lat: 19.6910181,
+                lng: -101.1679945
+            },
+            {
+                name: 'Luúm',
+                street: 'Félix Parra',
+                number: '47B',
+                suburb: 'San José insurgentes',
+                city: 'Delegación Benito juarez',
+                state: 'CDMX',
+                tel: 5618691311,
+                lat: 19.3685179,
+                lng: -99.2061281
+            },
+            {
+                name: 'Punto de Origen',
+                street: 'Av. Vicente Guerrero',
+                number: '478 Plaza Apolo L12b',
+                suburb: 'Lomas de la Selva',
+                city: 'Cuernavaca',
+                state: 'Morelos',
+                tel: 7771023651,
+                lat: 18.945318,
+                lng: -99.2314309
+            },
+            {
+                name: 'OHANA- Healthy Eco Market',
+                street: 'Av. del ferrocarril',
+                number: '807 Planta alta',
+                suburb: 'Col. centro',
+                city: 'Pachuca',
+                state: 'Hidalgo',
+                tel: 7714109831,
+                lat: 20.0836532,
+                lng: -98.7891203
+            },
+            {
+                name: 'Organicca',
+                street: 'Corregidora',
+                number: '21',
+                suburb: 'Col. centro',
+                city: 'San Juan del Río',
                 state: 'Querétaro',
-                zipCode: '',
-                lat: 20.601493,
-                lng: -100.392938
-            }
-        ];
+                tel: 4274882419,
+                lat: 20.3773173,
+                lng: -100.1558224
+            },
+            {
+                name: 'Mercadito 871 sucursal El Pueblito',
+                street: 'Sebastián de Gallegos',
+                number: 'SN',
+                suburb: 'Col. centro',
+                city: 'Corregidora',
+                state: 'Querétaro',
+                lat: 20.5499648,
+                lng: -100.4303581
+            },
+            {
+                name: 'The Green Market',
+                street: 'Av. Huayacán',
+                number: '105',
+                suburb: 'Col. centro',
+                city: 'Cancún',
+                state: 'Quintana roo',
+                tel: 9988840988,
+                lat: 21.1130778,
+                lng: -86.8534075
+            }];
     }
     ngOnInit() {
         this.langService.getImages().subscribe(data => {

@@ -296,7 +296,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"footer-container\">\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <ion-list>\n          <ion-list-header>\n            <h2>{{ 'menu_title' | translate }}</h2>\n          </ion-list-header>\n          <ion-item>\n            <ion-label [routerLink]=\"['/home']\">{{ 'menu_home' | translate}}</ion-label>\n          </ion-item>\n          <ion-item>\n            <ion-label [routerLink]=\"['/about-us']\">{{ 'menu_know_us' | translate}}</ion-label>\n          </ion-item>\n          <ion-item>\n            <ion-label [routerLink]=\"['/products']\">{{ 'menu_products' | translate}}</ion-label>\n          </ion-item>\n          <ion-item>\n            <ion-label [routerLink]=\"['/contact']\">{{ 'menu_contact' | translate}}</ion-label>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-list-header>\n            <h2>{{'footer_contact_us' | translate}}</h2>\n          </ion-list-header>\n          <ion-item>\n            <img height=\"150px\" src=\"../../../assets/images/contact.png\" />\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col class=\"d-flex justify-content-center\" size=\"12\">\n        <ion-label>© 2020 <a href=\"home\">Deliroots</a>. {{ 'all_rights_reserved' | translate}}</ion-label>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"footer-container\">\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <img src=\"../../../assets/images/Logo DeliRoots (transparente).svg\" /> \n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-list-header>\n            <h2>{{ 'menu_title' | translate }}</h2>\n          </ion-list-header>\n          <ion-item>\n            <ion-label [routerLink]=\"['/home']\">{{ 'menu_home' | translate}}</ion-label>\n          </ion-item>\n          <ion-item>\n            <ion-label [routerLink]=\"['/about-us']\">{{ 'menu_know_us' | translate}}</ion-label>\n          </ion-item>\n          <ion-item>\n            <ion-label [routerLink]=\"['/products']\">{{ 'menu_products' | translate}}</ion-label>\n          </ion-item>\n          <ion-item>\n            <ion-label [routerLink]=\"['/contact']\">{{ 'menu_contact' | translate}}</ion-label>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-list-header>\n            <h2>{{'footer_contact_us' | translate}}</h2>\n          </ion-list-header>\n          <ion-item>\n            <ion-icon name=\"logo-instagram\"></ion-icon> @deli.roots\n          </ion-item>\n          <ion-item>\n            <ion-icon name=\"logo-facebook\"></ion-icon> DeliRoots\n          </ion-item>\n          <ion-item>\n            <ion-icon name=\"logo-whatsapp\"></ion-icon> 442 328 88 17\n          </ion-item>\n          <ion-item>\n            <ion-icon name=\"logo-whatsapp\"></ion-icon> 418 106 34 88\n          </ion-item>\n          <ion-item>\n            <ion-icon name=\"logo-whatsapp\"></ion-icon> 442 186 33 51\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col class=\"d-flex justify-content-center\" size=\"12\">\n        <ion-label>© 2020 <a href=\"home\">deliRoots</a>. {{ 'all_rights_reserved' | translate}}</ion-label>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</div>");
 
 /***/ }),
 
@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img\"\n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/shopping-cart']\"><ion-icon class=\"font-28\" name=\"cart-outline\"></ion-icon></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar class=\"d-flex align-items-center\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button auto-hide=\"true\"></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      <img  class=\"home-img circle\"\n            src=\"../../../assets/images/logo.jpg\"  \n            (click)=\"redirecTo('home')\"/>\n    </ion-title>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/home']\"><ion-label>{{ 'menu_home' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/about-us']\"><ion-label>{{ 'menu_know_us' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/products']\"><ion-label>{{ 'menu_products' | translate}}</ion-label></ion-button>\n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/contact']\"><ion-label>{{ 'menu_contact' | translate}}</ion-label></ion-button> \n      <ion-button class=\"animate__animated animate__bounceInRight\" size=\"small\" [routerLink]=\"['/shopping-cart']\"><ion-icon class=\"font-28\" name=\"cart-outline\"></ion-icon></ion-button> \n      <ion-item>\n        <ion-select [interfaceOptions]=\"customLangOptions\" \n                    interface=\"popover\"\n                    [value]=\"currentLang\"\n                    (ionChange)=\"changeLang($event)\">\n          <ion-select-option value=\"es\">Español</ion-select-option>\n          <ion-select-option value=\"en\">English</ion-select-option>\n        </ion-select>\n      </ion-item>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>");
 
 /***/ }),
 
@@ -322,7 +322,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-card>\n  <ion-card-content>\n    <img [src]=\"product.img\" class=\"image circle\">\n    <div class=\"middle\">\n      <ion-button (click)=\"showModal(product)\">\n        <ion-icon name=\"eye-outline\"></ion-icon>\n      </ion-button>\n    </div>\n    <ion-text color=\"primary\">\n      <h1>{{ product.name | translate }}</h1>\n    </ion-text>\n    <ul class=\"text-color font-20\">\n      <li >{{'product_ingredients' | translate}}: {{ product.ingredients}}</li>\n      <li>{{'product_presentation' | translate}}: {{ product.presentation }}</li>\n      <li>{{'product_price' | translate}}: {{ product.price }}</li>\n    </ul>\n  </ion-card-content>\n</ion-card>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-card>\n  <ion-card-content class=\"pb-0\">\n    <img [src]=\"product.img\" class=\"image circle\">\n    <div class=\"middle\">\n      <ion-button (click)=\"showModal(product)\">\n        <ion-icon name=\"eye-outline\"></ion-icon>\n      </ion-button>\n    </div>\n    <ion-text color=\"primary\">\n      <h1>{{ product.name | translate }}</h1>\n    </ion-text>\n    <ul class=\"text-color font-20 mb-0\">\n      <li *ngIf=\"product.ingredients\">{{'product_ingredients' | translate}}: {{ product.ingredients | translate }}</li>\n      <li *ngIf=\"product.content\">{{'product_content' | translate}}: {{ product.content | translate }}</li>\n      <li *ngIf=\"product.flavors\">{{'product_flavors' | translate}}: {{ product.flavors | translate }}</li>\n      <li *ngIf=\"product.presentation\">{{'product_presentation' | translate}}: {{ product.presentation | translate }}</li>\n      <li *ngIf=\"product.price\">{{'product_price' | translate}}: {{ product.price | translate }}</li>\n      <li *ngIf=\"product.presentation2\">{{'product_presentation' | translate}}: {{ product.presentation2 | translate }}</li>\n      <li *ngIf=\"product.price2\">{{'product_price' | translate}}: {{ product.price2 | translate }}</li>\n      <li *ngIf=\"product.price3\">{{'product_price' | translate}}: {{ product.price3 | translate }}</li>\n      <li *ngIf=\"product.extra\">{{ product.extra | translate }}</li>\n    </ul>\n  </ion-card-content>\n</ion-card>");
 
 /***/ }),
 
@@ -335,7 +335,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header translucent mode=\"ios\">\n  <ion-toolbar>\n    <ion-buttons slot=\"end\">\n      <ion-button (click)=\"dismissModal()\">\n        <ion-icon name=\"close-outline\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content class=\"card-content\">\n  <ion-grid>\n    <ion-row>\n      <ion-col size=\"6\" class=\"d-flex align-items-center\">\n        <img [src]=\"product.img\" class=\"image circle\">\n      </ion-col>\n      <ion-col size=\"6\">  \n        <ion-text color=\"primary\">\n          <h1>{{ product.name | translate }}</h1>\n        </ion-text>    \n        <ion-text color=\"secondary\">\n          <h2>{{ product.price | translate }}</h2>\n        </ion-text>  \n        <div class=\"desc-container p-t-20\">\n          <p *ngFor=\"let dsc of product.dsc\">\n            {{ dsc }}\n          </p>\n          <ul>\n            <li>{{'product_ingredients' | translate}}: {{ product.ingredients}}</li>\n            <li>{{'product_presentation' | translate}}: {{ product.presentation }}</li>\n          </ul>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header translucent mode=\"ios\">\n  <ion-toolbar>\n    <ion-buttons slot=\"end\">\n      <ion-button (click)=\"dismissModal()\">\n        <ion-icon name=\"close-outline\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content class=\"card-content\">\n  <ion-grid>\n    <ion-row>\n      <ion-col size=\"6\" class=\"d-flex align-items-center\">\n        <img [src]=\"product.img\" class=\"image circle\">\n      </ion-col>\n      <ion-col size=\"6\" class=\"dsc-content\">  \n        <ion-text color=\"primary\">\n          <h1 class=\"text-primary-dark\">{{ product.name | translate }}</h1>\n        </ion-text>    \n        <ion-text>\n          <h2 *ngIf=\"product.price\">{{ product.price | translate }}</h2>\n          <h2 *ngIf=\"product.price2\">{{ product.price2 | translate }}</h2>\n          <h2 *ngIf=\"product.price3\">{{ product.price3 | translate }}</h2>\n        </ion-text>  \n        <div class=\"desc-container p-t-20\">\n          <p *ngFor=\"let dsc of product.dsc\" class=\"text-brown\">\n            {{ dsc | translate }}\n          </p>\n          <ul>\n            <li class=\"text-brown\" *ngIf=\"product.ingredients\">{{'product_ingredients' | translate }}: {{ product.ingredients | translate}}</li>\n            <li class=\"text-brown\" *ngIf=\"product.content\">{{'product_content' | translate }}: {{ product.content | translate }}</li>\n            <li class=\"text-brown\" *ngIf=\"product.presentation\">{{'product_presentation' | translate }}: {{ product.presentation | translate}}</li>\n            <li class=\"text-brown\" *ngIf=\"product.presentation2\">{{'product_presentation' | translate }}: {{ product.presentation2 | translate}}</li>\n            <li class=\"text-brown\" *ngIf=\"product.flavors\">{{'product_flavors' | translate }}: {{ product.flavors | translate }}</li>\n            <li class=\"text-brown\" *ngIf=\"product.extra\">{{ product.extra | translate }}</li>\n          </ul>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n");
 
 /***/ }),
 
@@ -524,6 +524,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/components.module */ "./src/app/components/components.module.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 /* harmony import */ var ngx_wow__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ngx-wow */ "./node_modules/ngx-wow/__ivy_ngcc__/esm2015/ngx-wow.js");
+/* harmony import */ var _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ionic-native/http/ngx */ "./node_modules/@ionic-native/http/__ivy_ngcc__/ngx/index.js");
+
 
 
 
@@ -565,6 +567,7 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         providers: [
             _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_6__["StatusBar"],
             _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_5__["SplashScreen"],
+            _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_15__["HTTP"],
             { provide: _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouteReuseStrategy"], useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicRouteStrategy"] },
             { provide: _angular_common__WEBPACK_IMPORTED_MODULE_13__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_13__["HashLocationStrategy"] }
         ],
@@ -792,13 +795,11 @@ let HeaderComponent = class HeaderComponent {
     }
     ngAfterViewInit() {
         this.currentLang = this.langService.getCurrentLang();
-        console.log(this.currentLang);
         if (this.currentLang === undefined) {
             this.currentLang = this.langService.getDeviceLanguage();
         }
     }
     changeLang(lang) {
-        console.log(lang.detail.value);
         const newLang = lang.detail.value;
         this.langService.currentLang.emit(newLang);
     }
@@ -832,7 +833,7 @@ HeaderComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".image {\n  opacity: 1;\n  display: block;\n  width: 100%;\n  height: auto;\n  transition: 0.5s ease;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n\n.middle {\n  transition: 0.5s ease;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  text-align: center;\n}\n\nion-card-content:hover .image {\n  opacity: 0.3;\n}\n\nion-card-content:hover .middle {\n  opacity: 1;\n}\n\nion-button {\n  color: var(--ion-background-color-secondary);\n  --background: var(--ion-background-color-tertiary);\n  height: 70px;\n  width: 70px;\n  --border-radius: 100%;\n  opacity: 90%;\n}\n\nion-button ion-icon {\n  color: white;\n  height: 100%;\n  width: 100%;\n}\n\nion-card {\n  --background: var(--ion-background-color-secondary);\n}\n\nion-card h1 {\n  color: var(--ion-background-color-cuartery);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LWNhcmQvcHJvZHVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksVUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0VBQ0Esb0NBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksNENBQUE7RUFDQSxrREFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EscUJBQUE7RUFDQSxZQUFBO0FBQ0o7O0FBQUk7RUFDSSxZQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUFFUjs7QUFFQTtFQUNJLG1EQUFBO0FBQ0o7O0FBQUk7RUFDSSwyQ0FBQTtBQUVSIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LWNhcmQvcHJvZHVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltYWdlIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogYXV0bztcbiAgICB0cmFuc2l0aW9uOiAuNXMgZWFzZTtcbiAgICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG59XG5cbi5taWRkbGUge1xuICAgIHRyYW5zaXRpb246IC41cyBlYXNlO1xuICAgIG9wYWNpdHk6IDA7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5pb24tY2FyZC1jb250ZW50OmhvdmVyIC5pbWFnZSB7XG4gICAgb3BhY2l0eTogMC4zO1xufVxuXG5pb24tY2FyZC1jb250ZW50OmhvdmVyIC5taWRkbGUge1xuICAgIG9wYWNpdHk6IDE7XG59XG5cbmlvbi1idXR0b24ge1xuICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1zZWNvbmRhcnkpO1xuICAgIC0tYmFja2dyb3VuZDogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3ItdGVydGlhcnkpO1xuICAgIGhlaWdodDogNzBweDtcbiAgICB3aWR0aDogNzBweDtcbiAgICAtLWJvcmRlci1yYWRpdXM6IDEwMCU7XG4gICAgb3BhY2l0eTogOTAlO1xuICAgIGlvbi1pY29uIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbn1cblxuaW9uLWNhcmQge1xuICAgIC0tYmFja2dyb3VuZDogdmFyKC0taW9uLWJhY2tncm91bmQtY29sb3Itc2Vjb25kYXJ5KTtcbiAgICBoMSB7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1jdWFydGVyeSk7XG4gICAgfVxufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".image {\n  opacity: 1;\n  display: block;\n  width: 100%;\n  height: auto;\n  transition: 0.5s ease;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n\n.middle {\n  transition: 0.5s ease;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  text-align: center;\n}\n\nion-card-content:hover .image {\n  opacity: 0.3;\n}\n\nion-card-content:hover .middle {\n  opacity: 1;\n}\n\nion-button {\n  color: var(--ion-background-color-secondary);\n  --background: var(--ion-background-color-tertiary);\n  height: 70px;\n  width: 70px;\n  --border-radius: 100%;\n  opacity: 90%;\n}\n\nion-button ion-icon {\n  color: white;\n  height: 100%;\n  width: 100%;\n}\n\nion-card {\n  --background: var(--ion-background-color-secondary);\n  height: 100% !important;\n}\n\nion-card h1 {\n  color: var(--ion-background-color-cuartery);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LWNhcmQvcHJvZHVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksVUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0VBQ0Esb0NBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUVBO0VBQ0ksVUFBQTtBQUNKOztBQUVBO0VBQ0ksNENBQUE7RUFDQSxrREFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EscUJBQUE7RUFDQSxZQUFBO0FBQ0o7O0FBQUk7RUFDSSxZQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUFFUjs7QUFFQTtFQUNJLG1EQUFBO0VBQ0EsdUJBQUE7QUFDSjs7QUFBSTtFQUNJLDJDQUFBO0FBRVIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3Byb2R1Y3QtY2FyZC9wcm9kdWN0LWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1hZ2Uge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHRyYW5zaXRpb246IC41cyBlYXNlO1xuICAgIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcbn1cblxuLm1pZGRsZSB7XG4gICAgdHJhbnNpdGlvbjogLjVzIGVhc2U7XG4gICAgb3BhY2l0eTogMDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmlvbi1jYXJkLWNvbnRlbnQ6aG92ZXIgLmltYWdlIHtcbiAgICBvcGFjaXR5OiAwLjM7XG59XG5cbmlvbi1jYXJkLWNvbnRlbnQ6aG92ZXIgLm1pZGRsZSB7XG4gICAgb3BhY2l0eTogMTtcbn1cblxuaW9uLWJ1dHRvbiB7XG4gICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yLXNlY29uZGFyeSk7XG4gICAgLS1iYWNrZ3JvdW5kOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci10ZXJ0aWFyeSk7XG4gICAgaGVpZ2h0OiA3MHB4O1xuICAgIHdpZHRoOiA3MHB4O1xuICAgIC0tYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgICBvcGFjaXR5OiA5MCU7XG4gICAgaW9uLWljb24ge1xuICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgfVxufVxuXG5pb24tY2FyZCB7XG4gICAgLS1iYWNrZ3JvdW5kOiB2YXIoLS1pb24tYmFja2dyb3VuZC1jb2xvci1zZWNvbmRhcnkpO1xuICAgIGhlaWdodDogMTAwJSAhaW1wb3J0YW50O1xuICAgIGgxIHtcbiAgICAgICAgY29sb3I6IHZhcigtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yLWN1YXJ0ZXJ5KTtcbiAgICB9XG59Il19 */");
 
 /***/ }),
 
@@ -899,7 +900,7 @@ ProductCardComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])(
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("p {\n  margin-bottom: 10px !important;\n  margin-top: 0px !important;\n}\n\nul {\n  padding-left: 18px !important;\n}\n\ndiv.desc-container {\n  font-size: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LW1vZGFsL3Byb2R1Y3QtbW9kYWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw4QkFBQTtFQUNBLDBCQUFBO0FBQ0o7O0FBRUE7RUFDSSw2QkFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LW1vZGFsL3Byb2R1Y3QtbW9kYWwuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4ICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XG59XG5cbnVsIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDE4cHggIWltcG9ydGFudDtcbn1cblxuZGl2LmRlc2MtY29udGFpbmVyIHtcbiAgICBmb250LXNpemU6IDIwcHg7XG59XG4iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("p {\n  margin-bottom: 10px !important;\n  margin-top: 0px !important;\n}\n\nul {\n  padding-left: 18px !important;\n}\n\ndiv.desc-container {\n  font-size: 20px;\n}\n\n.dsc-content {\n  height: 75vh !important;\n  overflow-y: scroll !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LW1vZGFsL3Byb2R1Y3QtbW9kYWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw4QkFBQTtFQUNBLDBCQUFBO0FBQ0o7O0FBRUE7RUFDSSw2QkFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtBQUNKOztBQUVBO0VBQ0ksdUJBQUE7RUFDQSw2QkFBQTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wcm9kdWN0LW1vZGFsL3Byb2R1Y3QtbW9kYWwuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4ICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XG59XG5cbnVsIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDE4cHggIWltcG9ydGFudDtcbn1cblxuZGl2LmRlc2MtY29udGFpbmVyIHtcbiAgICBmb250LXNpemU6IDIwcHg7XG59XG5cbi5kc2MtY29udGVudCB7XG4gICAgaGVpZ2h0OiA3NXZoICFpbXBvcnRhbnQ7XG4gICAgb3ZlcmZsb3cteTogc2Nyb2xsICFpbXBvcnRhbnQ7XG59Il19 */");
 
 /***/ }),
 
@@ -979,30 +980,154 @@ let ProductSectionComponent = class ProductSectionComponent {
             {
                 name: 'product_1_title',
                 img: '../../../assets/images/products/Cacahuate_natural_1.jpg',
-                dsc: ['Contiene proteina de alto valor biológico.',
-                    'Es rica en fibra que ayuda a saciar y regular la flora intestinal.',
-                    'Aporta minerales como magnesio, forforo, potasio y vitaminas del grupo A y B, C, D, y K.',
-                    'No contiene grasas añadidas ni conservadores.'],
-                ingredients: 'Cacahuate tostado',
-                presentation: '250 g.',
-                price: '$95.00'
+                dsc: ['product_1_dsc_1',
+                    'product_1_dsc_2',
+                    'product_1_dsc_3',
+                    'product_1_dsc_4'],
+                ingredients: 'product_1_ingredientes',
+                price: 'product_1_price_1',
+                price2: 'product_1_price_2'
             },
             {
-                name: 'Untable de cacahuate arándanos',
+                name: 'product_2_title',
                 img: '../../../assets/images/products/Cacahuate_1.jpg',
-                dsc: [],
-                ingredients: 'Cacahuate tostado',
+                dsc: ['product_2_dsc_1',
+                    'product_2_dsc_2',
+                    'product_2_dsc_3'],
+                ingredients: 'product_2_ingredientes',
+                price: 'product_2_price_1',
+                price2: 'product_2_price_2'
+            },
+            {
+                name: 'product_3_title',
+                img: '../../../assets/images/products/Almendra_1.jpg',
+                dsc: ['product_3_dsc_1',
+                    'product_3_dsc_2'],
+                ingredients: 'product_3_ingredientes',
+                price: 'product_3_price_1',
+                price2: 'product_3_price_2'
+            },
+            {
+                name: 'product_4_title',
+                img: '../../../assets/images/products/AvenayCacao_1.jpg',
+                dsc: ['product_4_dsc_1',
+                    'product_4_dsc_2',
+                    'product_4_dsc_3',
+                    'product_4_dsc_4'],
+                ingredients: 'product_4_ingredientes',
+                presentation: '250 g.',
+                price: '$155.00'
+            },
+            {
+                name: 'product_5_title',
+                img: '../../../assets/images/products/Tahini_2.jpg',
+                dsc: ['product_5_dsc_1',
+                    'product_5_dsc_2',
+                    'product_5_dsc_3'],
+                ingredients: 'product_5_ingredientes',
                 presentation: '250 g.',
                 price: '$95.00'
             },
             {
-                name: 'Untable de almendras',
-                img: '../../../assets/images/products/Almendra_1.jpg',
-                dsc: ['Aporta aminoacidos escenciales y una importante fuente de calcio y magnesio.',
-                    'Ayuda a mantener una piel sana gracias a su vitamina E.'],
-                ingredients: 'Almendras horneadas',
+                name: 'product_6_title',
+                img: '../../../assets/images/products/Nuezdelaindia_1.jpg',
+                dsc: ['product_6_dsc_1',
+                    'product_6_dsc_2',
+                    'product_6_dsc_3'],
+                ingredients: 'product_6_ingredientes',
                 presentation: '250 g.',
-                price: '$150.00'
+                price: '$160.00'
+            },
+            {
+                name: 'product_7_title',
+                img: '../../../assets/images/products/Matcha_2.jpg',
+                dsc: ['product_7_dsc_1',
+                    'product_7_dsc_2',
+                    'product_7_dsc_3'],
+                ingredients: 'product_7_ingredientes',
+                presentation: '250 g.',
+                price: '$115.00'
+            },
+            {
+                name: 'product_8_title',
+                img: '../../../assets/images/products/Delifit_1.jpg',
+                dsc: ['product_8_dsc_1',
+                    'product_8_dsc_2'],
+                ingredients: 'product_8_ingredientes',
+                presentation: '500 g.',
+                price: '$160.00'
+            },
+            {
+                name: 'product_9_title',
+                img: '../../../assets/images/products/Macadamia_1.jpg',
+                dsc: ['product_9_dsc_1',
+                    'product_9_dsc_2',
+                    'product_9_dsc_3'],
+                ingredients: 'product_9_ingredientes',
+                presentation: '250 g.',
+                price: '$165.00'
+            },
+            {
+                name: 'product_10_title',
+                img: '../../../assets/images/slides/Frasquitos_3.jpg',
+                dsc: [],
+                flavors: 'product_10_flavors',
+                content: 'product_10_content',
+                price: '$275.00'
+            },
+            {
+                name: 'product_11_title',
+                img: '../../../assets/images/products/Quinoa_1.jpg',
+                dsc: ['product_11_dsc_1',
+                    'product_11_dsc_2',
+                    'product_11_dsc_3',
+                    'product_11_dsc_4',
+                    'product_11_dsc_5'],
+                ingredients: 'product_11_ingredientes',
+                presentation: '25 g.',
+                price: '$18.00'
+            },
+            {
+                name: 'product_12_title',
+                img: '../../../assets/images/products/Delisampa_2.jpg',
+                dsc: ['product_12_dsc_1',
+                    'product_12_dsc_2',
+                    'product_12_dsc_3'],
+                ingredients: 'product_12_ingredientes',
+                price: 'product_12_price_1',
+                price2: 'product_12_price_2'
+            },
+            {
+                name: 'product_13_title',
+                img: '../../../assets/images/products/Keto_1.jpg',
+                dsc: ['product_13_dsc_1',
+                    'product_13_dsc_2'],
+                ingredients: 'product_13_ingredientes',
+                price: '$47.00',
+                content: 'product_13_content'
+            },
+            {
+                name: 'product_14_title',
+                img: '../../../assets/images/products/BokaditosBlue.jpg',
+                dsc: ['product_14_dsc_1',
+                    'product_14_dsc_2',
+                    'product_14_dsc_3'],
+                ingredients: 'product_14_ingredientes',
+                price: '$27.00',
+                content: 'product_14_content'
+            },
+            {
+                name: 'product_15_title',
+                img: '../../../assets/images/products/Xocodelicias_2.jpg',
+                dsc: ['product_15_dsc_1',
+                    'product_15_dsc_2',
+                    'product_15_dsc_3',
+                    'product_15_dsc_4'],
+                ingredients: 'product_15_ingredientes',
+                content: 'product_15_content',
+                price: 'product_15_price_1',
+                price2: 'product_15_price_2',
+                extra: 'product_15_price_extra'
             }
         ];
     }
@@ -1181,7 +1306,6 @@ let LanguageService = class LanguageService {
     init() {
         this.translate.addLangs(['en', 'es']);
         const language = this.getDeviceLanguage();
-        console.log(language);
         if (['en', 'es'].includes(language)) {
             this.translate.setDefaultLang(language);
         }
@@ -1232,7 +1356,8 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
     production: false,
     API_KEY_FOR_BROWSER_RELEASE: 'AIzaSyDjOUSaCW1BEytVER3Wilc8AawzpKBcppU',
-    API_KEY_FOR_BROWSER_DEBUG: 'AIzaSyDjOUSaCW1BEytVER3Wilc8AawzpKBcppU'
+    API_KEY_FOR_BROWSER_DEBUG: 'AIzaSyDjOUSaCW1BEytVER3Wilc8AawzpKBcppU',
+    serverUrl: 'http://localhost:8080/server/'
 };
 /*
  * For easier debugging in development mode, you can import the following file

@@ -22,7 +22,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card class=\"background-cuartery animate__animated animate__backInDown\" data-wow-duration=\"2s\" data-wow-delay=\"1s\">\n    <ion-card-content class=\"py-0\">\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"py-0\">\n            <img class=\"circle\" height=\"350px\" width=\"600px\" \n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"   />\n          </ion-col>\n          <ion-col size=\"7\" class=\"d-flex align-items-center p-y-0\">\n            <br>\n            <ion-text class=\"text-color\">\n              <p class=\"font-20\" >\n                {{ 'bussiness_description_paragraph_1' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_2' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_3' | translate}}\n                <br>\n                {{ 'bussiness_description_paragraph_4' | translate}}\n              </p>\n            </ion-text>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <div>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center animate__animated animate__bounceInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <div>\n              <ion-text>\n                <h1 class=\"font-28 text-primary-dark\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col class=\"animate__animated animate__bounceInRight\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <img class=\"circle\" src=\"../../../assets/images/phone-img/image2.jpeg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n  </div>\n  <app-product-section></app-product-section>\n  <div class=\"animate__animated animate__backInUp pt-2\" data-wow-duration=\"2s\" data-wow-delay=\"5s\">\n    <img [src]=\"imgSec.img_sec_2\" />\n  </div>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n  <app-footer></app-footer>\n</ion-content>\n\n";
+      __webpack_exports__["default"] = "<app-header></app-header>\n\n<ion-content \n[scrollEvents]=\"true\"\n(ionScroll)=\"scroll($event)\">\n  <app-slide [slideImgs]=\"slideImgs\"></app-slide>\n  <ion-card class=\"background-cuartery animate__animated animate__backInDown\" data-wow-duration=\"2s\" data-wow-delay=\"1s\">\n    <ion-card-content class=\"py-0\">\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"py-0\">\n            <img class=\"circle\" height=\"350px\" width=\"600px\" \n            src=\"../../../assets/images/Logo DeliRoots (transparente).svg\"   />\n          </ion-col>\n          <ion-col size=\"7\" class=\"d-flex align-items-center p-y-0\">\n            <br>\n            <ion-text class=\"text-color\">\n              <p class=\"font-20\" >\n                {{ 'bussiness_description_1' | translate }}\n                <br>\n                <br>\n                {{ 'bussiness_description_2' | translate }}\n              </p>\n            </ion-text>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card-content>\n  </ion-card>\n  <div>\n      <ion-grid [fixed]=\"true\">\n        <ion-row>\n          <ion-col class=\"d-flex align-items-center animate__animated animate__bounceInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <div>\n              <ion-text>\n                <h1 class=\"font-28 text-primary-dark\">{{ 'why_bussiness_question' | translate }}</h1>\n              </ion-text>\n              <br>\n              <ion-text class=\"text-color\">\n                <p class=\"font-20 text-brown\">\n                  {{ 'why_bussiness_answer_1' | translate }}\n                  <br>\n                  <br>\n                  {{ 'why_bussiness_answer_2' | translate }}\n                </p>\n              </ion-text>\n            </div>\n          </ion-col>\n          <ion-col class=\"animate__animated animate__bounceInRight\" data-wow-duration=\"2s\" data-wow-delay=\"2s\">\n            <img class=\"circle\" src=\"../../../assets/images/phone-img/image2.jpeg\" />\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n  </div>\n  <app-product-section></app-product-section>\n  <div class=\"animate__animated animate__backInUp pt-2\">\n    <img [src]=\"imgSec.img_sec_2\"/>\n  </div>\n  <ion-fab vertical=\"bottom\" horizontal=\"end\" slot=\"fixed\">\n    <ion-fab-button>\n      <ion-icon name=\"chatbubbles-outline\"></ion-icon>\n    </ion-fab-button>\n    <ion-fab-list side=\"start\">\n      <ion-fab-button href=\"https://www.facebook.com/italdesignqro/\" \n                      target=\"_blank\"><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>\n      <ion-fab-button href=\"https://www.instagram.com/deli.roots/\"\n                      target=\"_blank\"><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>\n      <!-- <ion-fab-button><ion-icon name=\"logo-whatsapp\"></ion-icon></ion-fab-button> -->\n    </ion-fab-list>\n  </ion-fab>\n\n  <app-footer></app-footer>\n</ion-content>\n\n";
       /***/
     },
 
@@ -228,12 +228,19 @@
       var _services_language_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! ../../services/language.service */
       "./src/app/services/language.service.ts");
+      /* harmony import */
+
+
+      var _services_request_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../services/request.service */
+      "./src/app/services/request.service.ts");
 
       var HomePage = /*#__PURE__*/function () {
-        function HomePage(langService) {
+        function HomePage(langService, requestService) {
           _classCallCheck(this, HomePage);
 
           this.langService = langService;
+          this.requestService = requestService;
           this.slideImgs = ['../../../assets/images/slides/all_products.jpeg', '../../../assets/images/slides/slide_1.jpg', '../../../assets/images/slides/slide_2.jpg', '../../../assets/images/slides/slide_3.jpg', '../../../assets/images/slides/slide_4.jpg', '../../../assets/images/slides/quinoa.jpg'];
         }
 
@@ -244,7 +251,13 @@
 
             this.langService.getImages().subscribe(function (data) {
               _this.imgSec = data;
-            });
+            }); // setTimeout(() => {
+            //   this.requestService.httpRequest('example').then(data => {
+            //     console.warn('Data', data);
+            //   }).catch( err => {
+            //     console.log('Error post', err);
+            //   });
+            // }, 2000);
           }
         }, {
           key: "scroll",
@@ -259,6 +272,8 @@
       HomePage.ctorParameters = function () {
         return [{
           type: _services_language_service__WEBPACK_IMPORTED_MODULE_2__["LanguageService"]
+        }, {
+          type: _services_request_service__WEBPACK_IMPORTED_MODULE_3__["RequestService"]
         }];
       };
 
@@ -271,6 +286,143 @@
         /*! ./home.page.scss */
         "./src/app/pages/home/home.page.scss"))["default"]]
       })], HomePage);
+      /***/
+    },
+
+    /***/
+    "./src/app/services/request.service.ts":
+    /*!*********************************************!*\
+      !*** ./src/app/services/request.service.ts ***!
+      \*********************************************/
+
+    /*! exports provided: RequestService */
+
+    /***/
+    function srcAppServicesRequestServiceTs(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "RequestService", function () {
+        return RequestService;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "./node_modules/tslib/tslib.es6.js");
+      /* harmony import */
+
+
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @angular/common/http */
+      "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/core */
+      "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+      /* harmony import */
+
+
+      var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../environments/environment */
+      "./src/environments/environment.ts");
+      /* harmony import */
+
+
+      var _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @ionic-native/http/ngx */
+      "./node_modules/@ionic-native/http/__ivy_ngcc__/ngx/index.js");
+      /* harmony import */
+
+
+      var _ionic_angular__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! @ionic/angular */
+      "./node_modules/@ionic/angular/__ivy_ngcc__/fesm2015/ionic-angular.js");
+      /* harmony import */
+
+
+      var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      /*! @ngx-translate/core */
+      "./node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
+
+      var serverUrl = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].serverUrl;
+
+      var RequestService = /*#__PURE__*/function () {
+        function RequestService(httpClient, http, platform, translateService) {
+          _classCallCheck(this, RequestService);
+
+          this.httpClient = httpClient;
+          this.http = http;
+          this.platform = platform;
+          this.translateService = translateService;
+        }
+
+        _createClass(RequestService, [{
+          key: "httpRequest",
+          value: function httpRequest(path, headers) {
+            var _this2 = this;
+
+            var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+            if (!path.includes('.php')) {
+              path = path + '.php';
+            }
+
+            var url = "".concat(serverUrl).concat(path);
+            console.log('url', url);
+            return new Promise(function (resolve) {
+              console.log('init');
+
+              var postSub = _this2.httpClient.post(url, '', {
+                headers: headers,
+                params: params
+              }).subscribe(function (response) {
+                return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this2, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+                  return regeneratorRuntime.wrap(function _callee$(_context) {
+                    while (1) {
+                      switch (_context.prev = _context.next) {
+                        case 0:
+                          postSub.unsubscribe();
+                          resolve(response);
+
+                        case 2:
+                        case "end":
+                          return _context.stop();
+                      }
+                    }
+                  }, _callee);
+                }));
+              }, function (error) {
+                console.warn('Error request', error);
+              });
+            });
+          }
+        }]);
+
+        return RequestService;
+      }();
+
+      RequestService.ctorParameters = function () {
+        return [{
+          type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]
+        }, {
+          type: _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_4__["HTTP"]
+        }, {
+          type: _ionic_angular__WEBPACK_IMPORTED_MODULE_5__["Platform"]
+        }, {
+          type: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__["TranslateService"]
+        }];
+      };
+
+      RequestService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])({
+        providedIn: 'root'
+      })], RequestService);
       /***/
     }
   }]);
